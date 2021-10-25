@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="">
+
+
+    <!-- css -->
+    <link href="css/bootstrap-min.css" rel="stylesheet">
+    <link href="css/bootstrap-default.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Favicons -->
+
+</head>
+
+<body>
+<div class="page-loader"><b class="spinner"></b></div>
+<div id="page">
+
+
+	
+	<!--
+	************************************************************
+	* Content section
+	************************************************************ -->
+
+	<section class="pos-rel login-bg" style="background-image: url(images/login-bg.jpg); background-position: center;  background-size: cover; height: 100%;">
+	  <div class="container align-c">
+	     <div class="w75 mr-auto" data-animate-in="fadeIn">
+				<h2 class="title"><img src="images/third-roc-logo.png" class="logo-center"/></h2>
+		 </div>
+	    
+	    <div class="row justify-content-center align-items-center add_bottom_15">
+			<div class="col-lg-12">
+			
+				<div class="mt-3 mb-3">
+					<div class="col-md-12 mx-0 padad12">
+						<div class="contact-wrapper_1">
+						  <form id="msform">
+                            
+								<fieldset>
+									<div class="form-card">
+										 <header class="login-cta mb-3">
+											<h2>Personal Information</h2>
+										  </header>
+										
+										<div class="row">	
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>First Name</span>
+												</div>
+											</div>
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>Last Name</span>
+												</div>
+											</div>
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="email" required>
+												  <span>Email</span>
+												</div>
+											</div>
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>Phone</span>
+												</div>
+											</div>
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" id="datepicker" autocomplete="off" required>
+												  <span>Date of birth</span>
+												</div>
+											</div>
+											 <div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>Postal Code</span>
+												</div>
+											</div>
+											<div class="col-12 col-sm-12 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>Address</span>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>City</span>
+												</div>
+											</div>
+											<div class="col-12 col-sm-6 mb-5">
+												<div class="form-row">
+												  <input type="text" required>
+												  <span>State</span>
+												</div>
+											</div>
+											
+										 </div>	
+									   </div> 
+									<input type="button" name="next" class="next action-button" value="Next Step" />
+								</fieldset>
+						        
+								
+								
+								<fieldset>
+                                <div class="form-card" style="float: left; width: 100%;">
+								   <header class="login-cta mb-3">
+										<h2>Business Information</h2>
+								   </header>
+									<div class="col-12 col-sm-12 mb-5">
+									 <div class="row">	
+										 <div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<input type="text" required>
+												<span>Company Name</span>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<input type="text" required>
+												<span>Company Email</span>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<select><option>Work Information</option></select>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<select><option>Income Type?</option></select>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<select><option>Loan Type & Amount</option></select>
+											</div>
+										</div>
+										<div class="col-12 col-sm-6 mb-5">
+											<div class="form-row">
+												<select><option>Length of Loan</option></select>
+											</div>
+										</div>
+										
+										
+										<div class="col-sm-12 mt-3">
+										    <h6 class="mb-0">Marital Status</h6>
+											<label class="checkbox" style="margin-bottom: 8px; margin-top: 15px;">
+												  <input type="checkbox" name="check">
+												   <span class="label-visible" style="color: #000; margin-left: 30px;">
+												   <span class="fake-checkbox"></span>Single</span>
+											</label>
+											<label class="checkbox" style="margin-bottom: 8px; margin-top: 15px;">
+												  <input type="checkbox" name="check">
+												   <span class="label-visible" style="color: #000; margin-left: 30px;">
+												   <span class="fake-checkbox"></span>Married </span>
+											</label>
+											<label class="checkbox" style="margin-bottom: 8px; margin-top: 15px;">
+												  <input type="checkbox" name="check">
+												   <span class="label-visible" style="color: #000; margin-left: 30px;">
+												   <span class="fake-checkbox"></span>Divorced</span>
+											</label>
+										</div>
+										
+										
+										
+									</div>	
+										
+									</div>
+								</div>
+								<input type="button" name="previous" class="previous action-button-previous" value="Back to Info" /> 
+								<input type="button" name="make_payment" class="next action-button" value="Submit" />
+							</fieldset>
+						         
+						 </form> 
+						 
+					</div>
+						
+						 
+					
+						
+						</div>
+					</div>
+				</div>
+            </div>
+			
+	
+	   </div>
+	</section>
+	
+
+
+
+
+
+
+	<!-- ************** END : Footer section **************  -->
+</div>
+<!-- /#page --> 
+
+
+
+<script src="js/move-it.js"></script>
+<script src="js/step.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	  <script>
+	    // INCLUDE JQUERY & JQUERY UI 1.12.1
+			$( function() {
+				$( "#datepicker" ).datepicker({
+					dateFormat: "dd-mm-yy"
+					,	duration: "fast"
+				});
+			} );
+      </script>
+
+</body>
+</html>
